@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <title>Anagram Detector Form</title>
+  </head>
+  <body>
+    <div class='container'>
+       <h1>Anagram Detector</h1>
+       <p>Enter the word which you would like to detect anagrams for:</p>
+       <form action='/view_anagram'>
+           <div class='form-group'>
+             <label for='word1'>Primary Word:</label>
+             <input id='word1' name='word1' class='form-control' type='text'>
+           </div>
+           <div class='form-group'>
+             <label for='word2'>Possible Anagram1:</label>
+             <input id='word2' name='word2' class='form-control' type='text'>
+           </div>
+           <div class='form-group'>
+             <label for='word3'>Possible Anagram2:</label>
+             <input id='word3' name='word3' class='form-control' type='text'>
+           </div>
+           <div class='form-group'>
+             <label for='word4'>Possible Anagram3:</label>
+             <input id='word4' name='word4' class='form-control' type='text'>
+           </div>
+           <div class='form-group'>
+             <label for='word5'>Possible Anagram4:</label>
+             <input id='word5' name='word5' class='form-control' type='text'>
+           </div>
+           <button type='submit' class='btn-success'>Detect</button>
+       </form>
+    </div>
+  </body>
+</html>
